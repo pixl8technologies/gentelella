@@ -1,3 +1,8 @@
+<?php
+  $shrms_home = "/student-hrms";
+  include("db_config.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,14 +15,14 @@
     <title>PCS-SHRMS</title>
 
     <!-- Bootstrap -->
-    <link href="/student-hrms/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $shrms_home; ?>/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="/student-hrms/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo $shrms_home; ?>/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- NProgress -->
-    <link href="/student-hrms/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <link href="<?php echo $shrms_home; ?>/vendors/nprogress/nprogress.css" rel="stylesheet">
 
     <!-- Custom Theme Style -->
-    <link href="/student-hrms/build/css/custom.min.css" rel="stylesheet">
+    <link href="<?php echo $shrms_home; ?>/build/css/custom.min.css" rel="stylesheet">
   </head>
 
   <body class="nav-md">

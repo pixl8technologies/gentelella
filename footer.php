@@ -10,15 +10,15 @@
     </div>
 
     <!-- jQuery -->
-    <script src="/student-hrms/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="<?php echo $shrms_home; ?>/vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
-    <script src="/student-hrms/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="<?php echo $shrms_home; ?>/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- FastClick -->
-    <script src="/student-hrms/vendors/fastclick/lib/fastclick.js"></script>
+    <script src="<?php echo $shrms_home; ?>/vendors/fastclick/lib/fastclick.js"></script>
     <!-- NProgress -->
-    <script src="/student-hrms/vendors/nprogress/nprogress.js"></script>
+    <script src="<?php echo $shrms_home; ?>/vendors/nprogress/nprogress.js"></script>
     
     <!-- Custom Theme Scripts -->
-    <script src="/student-hrms/build/js/custom.min.js"></script>
+    <script src="<?php echo $shrms_home; ?>/build/js/custom.min.js"></script>
   </body>
 </html>
